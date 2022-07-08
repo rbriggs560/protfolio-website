@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richard's Profolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <nav class = "navbar">
+        <ul class = "sub_links">
+            <li><h1><a clas = "navbar-brand" href="home.html">Richard Briggs</a></h1></li>
+            <li class = "links"> <a href="home.html#about-me">About</a> </li>
+            <li class = "links"> <a href="home.html#projects">Projects </a></li>
+            <li class = "links"> <a href="home.html#skills">Skills</a></li>
+            <li class = "links"> <a href="/home.html#contact-form"> Contact</a></li>
+            <li class = "links">
+                 <a href="https://www.linkedin.com/in/rbbriggs/"> <span class = "fa-brands fa-linkedin" aria-hidden="true "></span> 
+                   <span class = "sr-only">LinkedIn</span> 
+                </a>
+            </li>
+            <li class = "links">
+                 <a href="https://github.com/rbriggs560"> <span class = "fa-brands fa-github" aria-hidden="true "></span>
+                    <span class = "sr-only">Github</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class = "contianer">
+        <main>
+            <section id = "introduction">
+                <p class = "name">Hi, my name is 
+                    <span> Richard Briggs.</span>
+                </p>
+                <p class = "name-one">I build things for the web.</p>
+                <p class = "name-two">I am a software engineer studying computer science at Drexel University.</p>
+                 <div class="hire-button">
+                    <a href="/home.html#contact-form" class = "hire-me">Hire me</a>
+                 </div>
+                
+            </section>
+
+            <div class ="gradient"></div>
+
+            <div class ="section-dkblue"> 
+                <section id = "about-me">
+                    <div class = "main-content">
+                        <h2 class = "section-title">About Me </h2>
+                            <p class = "about-text">
+                                Hello! My name is Richard and I am currently studying computer science at Drexel University.
+                                My interest in computer science began during my junior year of high school. 
+                                My enthusiasm for the field of computing has grown tremendously since then. 
+                                Allowing me to create other interests in the field of computing like web and
+                                mobile app development, computer vision, and much more. My goal as a software
+                                engineer is to keep learning and help discover some of the fascinating areas that 
+                                are yet to be discovered in the field of computing. Because I strongly believe that 
+                                we haven't scratched the surface of computers' capabilities.
+                            </p> 
+                    </div>
+
+                    <div class = "image-div">
+                        <img class = "image" src="/Image/profile.JPG" alt="My Profile Picture">
+                    </div>
+                </section>
+            </div>
+            <div class ="section-dkblue">
+                <section id = "projects">
+                    <h2 class = "section-title">Projects I'm proud of:</h2>
+                    <article class = "grid-on-projects">
+                        <div class = "text">
+                            <h4>Latest Project</h4>
+                            <h3 class = "project-title">StatShot</h3>
+                            <p class = "black-box"> StatShot is a web application that allows athletes to showcase their
+                                 talent to coaches by posting highlights videos and their stats from high school sports. 
+                                 Players and coaches can also reach out to each other easily and quickly. 
+                                 The application also allows coaches to visualize players' stats using a graph and watch players' highlights.
+                            </p>
+
+                            <h4>Technologies used:</h4>
+                            <ul>
+                                <li>Python</li>
+                                <li>Django</li>
+                                <li>CSS</li>
+                                <li>HTML</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                        <img src="/Image/statshot.png" alt="Project image">
+                    </article>
+                </section>
+            </div>
+            <div class ="section-dkblue">
+                <section id = "skills">
+                        <h6 class = "section-title">My Skills</h6>
+                        <p>Technologies I  been working with recently:</p>
+                        <div class = "skills-grid"> 
+                            <div>
+                                <h6 class = "name-of-skills">Python</h6>
+                                <img class = "svgs skills-name" src="/Image/icons8-python.svg" alt="python icon">
+                            </div>
+                            <div>
+                                <h6 class = "name-of-skills">JavaScript</h6>
+                                <img class = "svgs kills-name" src="/Image/icons8-javascript.svg" alt="JavaScript icon">
+                                
+                            </div>
+                            <div>
+                                <h6 class = "name-of-skills">HTML 5</h6>
+                                <img class = "svgs skills-name" src="/Image/icons8-html-5.svg" alt="HTML icon">
+                            </div>
+
+                            <div>
+                                <h6 class = "name-of-skills">CSS3</h6>
+                                <img class = "svgs css-svg" src="/Image/icons8-css3.svg" alt="CSS icon">
+                            </div>
+
+                            <div>
+                                <h6 class = "name-of-skills">Django</h6>
+                                <img class = "django-image" src="/Image/django.jpeg" alt="django icon">
+                            </div>
+
+                        </div>
+                </section>
+            </div>
+            
+            <div class ="gradient"></div>
+            <div class = "div-form">
+                <section id = "contact-form">
+                     <div class = "content-in-contact-form">
+                        <h5 class = "section-title">Contact me</h2>
+                            <p clas = "reach-out-message">Let's get in touch and build something great together.</p>
+                        </div>
+                    <form id = "form" action="#">
+                        <input class = "inline-section form-box" type="text" id="full-name" placeholder="Full Name">
+                        <input class = "inline-section form-box" type="email" id="email" placeholder="Email">
+                        
+                        <div>
+                            <input class= "form-box" type="text" id="userSubject" placeholder="Subject">
+                        </div>
+                        <div>
+                            <textarea  id="message" placeholder="Message"></textarea>
+                        </div>
+                        <input type="submit" id ="user-info" value = "Send message">
+                    </form>
+                </section>
+            </div>
+        </main>
+    </div>
+    <div class ="gradient"></div>
+
+    <footer>
+        <ul>
+            <li class = "links">
+                <a href="https://www.linkedin.com/in/rbbriggs/"> <span class = "fa-brands fa-linkedin" aria-hidden="true "></span> 
+                  <span class = "sr-only">LinkedIn</span> 
+               </a>
+           </li>
+           <li class = "links">
+                <a href="https://github.com/rbriggs560"> <span class = "fa-brands fa-github" aria-hidden="true "></span>
+                   <span class = "sr-only">Github</span>
+               </a>
+           </li>
+       </li>
+        </ul>
+        <p class = "paragraph-in-footer"> <small>&copy 2022 Richard Briggs. All rights reserved.</p></small>
+    </footer>
+</body>
+</html>
